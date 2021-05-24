@@ -18,26 +18,26 @@ Appointment Scheduler Repo: https://github.com/gokultrivandrum/schedule_appointm
 Server Repo: https://github.com/gokultrivandrum/schedule_appointment_server
 
 ## Prerequisite for running the application
-•	NPM
-•	Node
-•	MongoDB Credentials
-•	Serverless credential (Deployment)
-•	AWS console credential (Deployment)
+NPM
+Node
+MongoDB Credentials
+Serverless credential (Deployment)
+AWS console credential (Deployment)
 
 ## For Running a Backend application follow the below steps
 
-• git clone https://github.com/gokultrivandrum/schedule_appointment.git
-• cd schedule_appointment
-• npm install
-• In the ‘database.config.js’ file configure the mongo URL
-• npm run start // to host the server in http://localhost:3005
-• setx AWS_ACCESS_KEY_ID XXXXXX
-• setx AWS_SECRET_ACCESS_KEY XXXXX
-• serverless deploy // for deployment
-• serverless remove // to remove the command
+git clone https://github.com/gokultrivandrum/schedule_appointment.git
+cd schedule_appointment
+npm install
+In the ‘database.config.js’ file configure the mongo URL
+npm run start // to host the server in http://localhost:3005
+setx AWS_ACCESS_KEY_ID XXXXXX
+setx AWS_SECRET_ACCESS_KEY XXXXX
+serverless deploy // for deployment
+serverless remove // to remove the command
  
 # Future Road Map
 
-•	User persona to manage the appointments.
-•	Server migration to Next.js API folder
-•	Test case coverage for all the components, now integrated only
+User persona to manage the appointments.
+Server migration to Next.js API folder
+Test case coverage for all the components, now integrated only
